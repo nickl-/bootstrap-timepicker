@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 .bootstrap-timepicker {
-  width:130px;
+  width: 130px;
 }
-.bootstrap-timepicker .form-control{
+.bootstrap-timepicker .form-control {
   border-radius: 4px 0 0 4px !important;
 }
 .bootstrap-timepicker.pull-right .bootstrap-timepicker-widget.dropdown-menu {
