@@ -1,10 +1,10 @@
 {
     "name": "bootstrap-timepicker",
-    "version": "0.2.5",
-    "description": "A timepicker component for Twitter Bootstrap 2.x",
+    "version": "0.3.0",
+    "description": "A timepicker component for Twitter Bootstrap 3.x",
     "repository": {
       "type": "git",
-      "url": "https://github.com/jdewit/bootstrap-timepicker"
+      "url": "https://github.com/nickl-/bootstrap-timepicker"
     },
     "main": ["js/bootstrap-timepicker.min.js", "css/bootstrap-timepicker.min.css"],
     "dependencies": {
