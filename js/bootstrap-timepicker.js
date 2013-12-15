@@ -216,15 +216,15 @@
     },
 
     getCursorPosition: function() {
-      var input = this.$element.get(0);
+      var sel, selLen, input = this.$element.get(0);
 
       if ('selectionStart' in input) {// Standard-compliant browsers
 
         return input.selectionStart;
       } else if (document.selection) {// IE fix
         input.focus();
-        var sel = document.selection.createRange(),
-          selLen = document.selection.createRange().text.length;
+        sel = document.selection.createRange();
+        selLen = document.selection.createRange().text.length;
 
         sel.moveStart('character', - input.value.length);
 
@@ -1028,4 +1028,4 @@
 
   $.fn.timepicker.Constructor = Timepicker;
 
-})(jQuery, window, document);
+})(window.jQuery, window, document);
